@@ -16,7 +16,7 @@ print()
 print('- Login no RUB -')
 
 # Credenciais RUB
-IP = '10.48.69.146'
+IP = input('Digite o IP da sua loja, Exemplo = 10.48.69.146: ')
 USER = input('Digite a sua matrícula: ')
 PASSWORD = getpass.getpass('Digite sua senha: ')
 
